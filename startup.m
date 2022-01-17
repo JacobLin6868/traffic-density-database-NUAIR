@@ -4,7 +4,7 @@
 % Script will add necessary paths
 
 [~,currDir] = fileparts(pwd);
-if ~strcmp(currDir,'TrafficDensityDatabase')
+if ~strcmp(currDir,'traffic-density-database-NUAIR')
     error('Startup must be executed from TrafficDensityDatabase directory');
 end
 
